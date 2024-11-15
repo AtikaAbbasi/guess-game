@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessnumber</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+    
+    
+    
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+
+
+    <div class="box">
+
+        <h2 class=" heading">Guess the number game</h2>
+
+        <label class="bold" for="level">Choose Level:</label>
+        <br>
+        <select id="level">
+          <option value="easy">Easy 1 to 10</option>
+          <option value="medium">Medium 1 to 50</option>
+          <option value="hard">Hard 1 to 100</option>
+        </select>
+        
+        <br><br><br>
+
+
+<input  type="number" id="fun" placeholder="Enter your guess" min="1" max="10">
+
+<button class="but" onclick="usub()">Submit</button>
+
+<button class="but" onclick=" rgame()">Reset </button>
+
+
+<h3 id="text"></h3>
+<h1 id="anum">0</h1>
+
+
+</div>
+
+
+<div class="footer">&copy; Created by Atika all Rights reserved</div>
+
+
+        <script src="app.js"></script>
+</body>
+</html>

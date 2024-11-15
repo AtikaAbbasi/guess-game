@@ -1,0 +1,115 @@
+
+
+body{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/64c9ea21-82be-48a3-a6f5-6d1786a3fc7e/d849dwo-0cdfe0ca-4bbe-43d5-b8d4-6c58db906e1e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY0YzllYTIxLTgyYmUtNDhhMy1hNmY1LTZkMTc4NmEzZmM3ZVwvZDg0OWR3by0wY2RmZTBjYS00YmJlLTQzZDUtYjhkNC02YzU4ZGI5MDZlMWUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.n3jDMgOwazieu5EgWAGyGW4kZSx12Xqbs3BMHPLp6o4);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-radius: 10px;
+
+} 
+
+
+
+
+.box{
+    width: 355px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px;
+    align-items: center;
+    margin-bottom: 4em;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.249);
+    color: white;
+}
+
+
+.heading{
+
+    text-shadow: 0 0 20px #e4eae9,0 0 40px #d884c3;
+
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+#level{
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#fun{
+    text-align: center;
+    width: 255px;
+    height: 34px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.but{
+    background-color: rgb(2, 21, 50);
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    width: 100px;
+    height: 43px;
+    border-radius: 12px;
+  
+    margin-top: 1em;
+    padding: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+
+.footer{
+    padding: 0.6em;
+    text-align: center;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 2em;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+
+
+@media (max-width:370px){
+    .box{
+        width: 300px;
+    }
+}
+
+@media (max-width:310px){
+    .box{
+        width: 230px;
+    }
+
+    #fun{
+        width: 180px;
+    }
+
+    .footer{
+        font-weight:500;
+    }
+}
